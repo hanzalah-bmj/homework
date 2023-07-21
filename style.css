@@ -1,0 +1,108 @@
+.top_bar {
+    width: 100%;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: black;
+    transition: .7s;
+    height: 25px;
+    font-size: 25px;
+    color: white;
+}
+.img1 {
+    width: 100%;
+    height: 600px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.header {
+    display: inline;
+}
+
+.header-left {
+    display: inline-block;
+    width: 250px;
+}
+
+.main_menu {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+.main_menu ul {
+    list-style: none;
+}
+.main_menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 64px;
+    line-height: 64px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.header-right {
+    display: inline-block;
+    width: 250px;
+    border: 2px solid red;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.pro-tumb {
+    width: 350px;
+    height: 350px;
+}
+
+.pro-title {
+    text-align: center;
+}
+
+.product-card {
+    display: inline-table;
+    margin: auto;
+    width: 350px;
+    margin: 10px;
+}
+
+.atc-btn,
+.buy-btn {
+    margin-top: 2px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    text-transform: uppercase;
+}
+
+.atc-btn {
+    background-color: black;
+    color: white;
+}
+
+.buy-btn {
+    background-color: brown;
+    color: white;
+}
+
+.footer {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    padding-top: 0px;
+}
+
+.footer-box-main {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 10px;
+    padding-top: 0px;
+}
