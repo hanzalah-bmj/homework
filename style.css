@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
 .top_bar {
     width: 100%;
     vertical-align: top;
@@ -40,8 +44,8 @@
     vertical-align: middle;
     height: 64px;
     line-height: 64px;
-    font-size: 30px;
-    margin: 20px;
+    font-size: 25px;
+    margin: 10px;
 }
 
 .header-right {
@@ -55,8 +59,8 @@
 }
 
 .pro-tumb {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
 }
 
 .pro-title {
@@ -66,26 +70,27 @@
 .product-card {
     display: inline-table;
     margin: auto;
-    width: 350px;
+    width: 200px;
     margin: 10px;
 }
 
 .atc-btn,
 .buy-btn {
-    margin-top: 2px;
-    width: 100%;
+    width: 48%;
     height: 40px;
     border-radius: 5px;
     border: 0px;
-    text-transform: uppercase;
 }
 
 .atc-btn {
+    display: inline-block;
     background-color: black;
     color: white;
+    margin-left: 2px;
 }
 
 .buy-btn {
+    display: inline-block;
     background-color: brown;
     color: white;
 }
@@ -100,7 +105,7 @@
 
 .footer-box-main {
     display: inline-block;
-    width: 350px;
+    width: 250px;
     height: 200px;
     margin: 10px;
     margin-top: 10px;
